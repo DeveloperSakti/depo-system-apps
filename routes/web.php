@@ -12,5 +12,7 @@
 */
 
 Route::get('/', function () {
-    return view('welcome');
+    return response()->json({
+        'message' => 'Selamat Datang di Aplikasi Depo System'
+    });
 });
