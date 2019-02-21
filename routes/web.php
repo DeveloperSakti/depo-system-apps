@@ -14,5 +14,5 @@
 Route::get('/', function () {
     return response()->json({
         'message' => 'Selamat Datang di Aplikasi Depo System'
-    })
+    });
 });
