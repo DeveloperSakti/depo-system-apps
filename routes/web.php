@@ -11,8 +11,13 @@
 |
 */
 
-Route::get('/', function () {
-    return response()->json({
-        'message' => 'Selamat Datang di Aplikasi Depo System'
+Auth::routes();
+
+Route::group(['middleware' => ['auth'] ], function () {
+    
+    Route::get('/', function () {
+        return view('app.pages.dashboard.dashboard');
     });
+
 });
+
