@@ -30,8 +30,14 @@ Route::group(['middleware' => ['auth'] ], function () {
         Route::get('/price/customer', function () {
             return view('app.pages.administration.price.customer.list');
         });
+        Route::get('/price/customer/add', function () {
+            return view('app.pages.administration.price.customer.form');
+        });
         Route::get('/price/consignee', function () {
             return view('app.pages.administration.price.consignee.list');
+        });
+        Route::get('/price/consignee/add', function () {
+            return view('app.pages.administration.price.consignee.form');
         });
 
         Route::get('/seal-stock', function () {
