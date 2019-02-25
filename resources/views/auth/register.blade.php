@@ -1,4 +1,4 @@
-{{--  @extends('layouts.app')
+@extends('layouts.app')
 
 @section('content')
 <div class="container">
@@ -74,9 +74,9 @@
         </div>
     </div>
 </div>
-@endsection  --}}
+@endsection
 
-<!DOCTYPE html>
+{{--  <!DOCTYPE html>
 <html lang="en">
 <head>
   <meta charset="UTF-8">
@@ -192,4 +192,4 @@
   <script src="{{ URL::to('vendor/stisla-dashboard/js/scripts.js') }}"></script>
   <script src="{{ URL::to('vendor/stisla-dashboard/js/custom.js') }}"></script>
 </body>
-</html>
+</html>  --}}
