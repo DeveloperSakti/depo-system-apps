@@ -13,7 +13,7 @@
 
       <div class="section-body">
         <h2 class="section-title">Data In Form</h2>
-        <p class="section-lead">Masukkan Data In Dengan Benar.</p>
+        <p class="section-lead">Masukkan Data In </p>
         <form>
         <div class="row">
           <div class="col-12 col-md-6 col-lg-6">
