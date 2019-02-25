@@ -55,7 +55,9 @@ Route::group(['middleware' => ['auth'] ], function () {
     });
 
     Route::group(['prefix' => 'operation'], function() {
-        //
+        Route::get('/data-in', function () {
+            return view('app.pages.operation.data-in.list');
+        });
     });
     
     Route::group(['prefix' => 'reports'], function() {
