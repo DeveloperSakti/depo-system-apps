@@ -55,6 +55,9 @@ Route::group(['middleware' => ['auth'] ], function () {
     });
 
     Route::group(['prefix' => 'operation'], function() {
+        Route::get('/dp-in', function () {
+            return view('app.pages.operation.dp-in.form');
+        });
         Route::get('/data-in', function () {
             return view('app.pages.operation.data-in.list');
         });
