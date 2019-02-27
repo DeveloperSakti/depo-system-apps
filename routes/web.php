@@ -58,6 +58,12 @@ Route::group(['middleware' => ['auth'] ], function () {
         Route::get('/data-in', function () {
             return view('app.pages.operation.data-in.list');
         });
+        Route::get('/input-do', function () {
+            return view('app.pages.operation.input-do.list');
+        });
+        Route::get('/data-out', function () {
+            return view('app.pages.operation.data-out.list');
+        });
     });
     
     Route::group(['prefix' => 'reports'], function() {

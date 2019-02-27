@@ -281,10 +281,10 @@
                     <li><a class="nav-link" href="/administration/price/consignee">Consignee Price</a></li>
                 </ul>
             </li>
-            <li><a class="nav-link" href="/administration/seal-stock"><i class="far fa-square"></i> <span>Seal Stock</span></a></li>
-            <li><a class="nav-link" href="/administration/vessel"><i class="far fa-square"></i> <span>Vessel Register</span></a></li>
-            <li><a class="nav-link" href="/administration/cont"><i class="far fa-square"></i> <span>Cont Register</span></a></li>
-            <li><a class="nav-link" href="/administration/do-specialmsg"><i class="far fa-square"></i> <span>DO Special Message</span></a></li>
+            <li><a class="nav-link" href="/administration/seal-stock"><i class="fas fa-stamp"></i> <span>Seal Stock</span></a></li>
+            <li><a class="nav-link" href="/administration/vessel"><i class="fas fa-ship"></i> <span>Vessel Register</span></a></li>
+            <li><a class="nav-link" href="/administration/cont"><i class="fas fa-truck"></i> <span>Cont Register</span></a></li>
+            <li><a class="nav-link" href="/administration/do-specialmsg"><i class="fas fa-envelope-square"></i> <span>DO Special Message</span></a></li>
 
 
             <li class="menu-header">Operation</li>
@@ -299,8 +299,8 @@
             <li class="dropdown">
               <a href="#" class="nav-link has-dropdown" data-toggle="dropdown"><i class="fas fa-columns"></i> <span>Operation OUT</span></a>
               <ul class="dropdown-menu">
-                <li><a class="nav-link" href="layout-default.html">Input DO</a></li>
-                <li><a class="nav-link" href="layout-transparent.html">Data Out</a></li>
+                <li><a class="nav-link" href="/operation/input-do">Input DO</a></li>
+                <li><a class="nav-link" href="/operation/data-out">Data Out</a></li>
               </ul>
             </li>
             <li class="dropdown">
