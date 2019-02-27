@@ -306,7 +306,7 @@
             <li class="dropdown">
               <a href="#" class="nav-link has-dropdown" data-toggle="dropdown"><i class="fas fa-cart-plus"></i> <span>Cashier</span></a>
               <ul class="dropdown-menu">
-                <li><a class="nav-link" href="layout-default.html">Import</a></li>
+                <li><a class="nav-link" href="/operation/chasier-import">Import</a></li>
                 <li><a class="nav-link" href="layout-transparent.html">Export</a></li>
               </ul>
             </li>

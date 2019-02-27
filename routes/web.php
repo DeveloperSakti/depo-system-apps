@@ -67,6 +67,12 @@ Route::group(['middleware' => ['auth'] ], function () {
         Route::get('/data-out', function () {
             return view('app.pages.operation.data-out.list');
         });
+        Route::get('/chasier-import', function () {
+            return view('app.pages.operation.chasier-import.list');
+        });
+        Route::get('/chasier-import/form', function () {
+            return view('app.pages.operation.chasier-import.form');
+        });
     });
     
     Route::group(['prefix' => 'reports'], function() {
