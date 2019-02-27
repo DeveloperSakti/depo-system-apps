@@ -67,6 +67,9 @@ Route::group(['middleware' => ['auth'] ], function () {
         Route::get('/data-out', function () {
             return view('app.pages.operation.data-out.list');
         });
+        Route::get('/cancellation', function () {
+            return view('app.pages.cancellation.form');
+        })->name('operation.cancelation.add');
     });
     
     Route::group(['prefix' => 'reports'], function() {

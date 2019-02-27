@@ -310,7 +310,7 @@
                 <li><a class="nav-link" href="layout-transparent.html">Export</a></li>
               </ul>
             </li>
-            <li><a class="nav-link" href="blank.html"><i class="far fa-square"></i> <span>Cancellation</span></a></li>
+            <li><a class="nav-link" href="{{ route('operation.cancelation.add') }}"><i class="far fa-square"></i> <span>Cancellation</span></a></li>
             <li><a class="nav-link" href="blank.html"><i class="far fa-square"></i> <span>Manifest</span></a></li>
             <li class="dropdown">
               <a href="#" class="nav-link has-dropdown"><i class="fas fa-pencil-alt"></i> <span>Update Data</span></a>
