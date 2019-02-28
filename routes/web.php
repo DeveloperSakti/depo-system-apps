@@ -72,6 +72,15 @@ Route::group(['middleware' => ['auth'] ], function () {
         });
         Route::get('/chasier-import/form', function () {
             return view('app.pages.operation.chasier-import.form');
+          
+        Route::get('/cancellation', function () {
+            return view('app.pages.cancellation.form');
+        })->name('operation.cancelation.add');
+          
+        Route::group(['prefix' => 'cashier'], function (){
+            Route::get('/export', function () {
+                return view('app.pages.operation.cashier.export');
+            })->name('operation.cashier.export');
         });
     });
     
