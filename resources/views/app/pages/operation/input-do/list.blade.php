@@ -3,7 +3,7 @@
 @section('content')
 
     <div class="section-header">
-        <h1>Consignee Price</h1>
+        <h1>Input DO</h1>
         <div class="section-header-breadcrumb">
           <div class="breadcrumb-item active"><a href="#">Dashboard</a></div>
           <div class="breadcrumb-item"><a href="#">Forms</a></div>
@@ -28,7 +28,7 @@
                   <div class="row">
                     <div class="col-12 col-md-8 col-sm-8">
                       <label>Container No.</label>
-                      <input type="text" class="form-control" id="ContainerNo" name="ContainerNo"> 
+                      <input type="text" class="form-control" id="ContainerNo" name="ContainerNo">
                     </div>
                     <div class="col-12 col-md-4 col-sm-4">
                       <label>Iso Check</label>
@@ -42,7 +42,7 @@
                   <div class="row">
                     <div class="col-12 col-md-6 col-sm-6">
                       <label>Size</label>
-                      <input type="text" class="form-control" id="Size" name="Size"> 
+                      <input type="text" class="form-control" id="Size" name="Size">
                     </div>
                     <div class="col-12 col-md-6 col-sm-6">
                       <label>Type</label>
@@ -52,7 +52,7 @@
                   <div class="row">
                     <div class="col-12 col-md-6 col-sm-6">
                       <label>Condition</label>
-                      <input type="text" class="form-control" id="Condition" name="Condition"> 
+                      <input type="text" class="form-control" id="Condition" name="Condition">
                     </div>
                     <div class="col-12 col-md-6 col-sm-6">
                       <label>Wash</label>
@@ -76,11 +76,11 @@
                   <label>Consignee</label>
                   <input type="text" class="form-control" id="Consignee" name="Consignee">
                   <label>Ex Vessel</label>
-                  <input type="text" class="form-control" id="ExVessel" name="ExVessel"> 
+                  <input type="text" class="form-control" id="ExVessel" name="ExVessel">
                   <div class="row">
                     <div class="col-12 col-md-6 col-sm-6">
                       <label>Transport</label>
-                      <input type="text" class="form-control" id="Transport" name="Transport"> 
+                      <input type="text" class="form-control" id="Transport" name="Transport">
                     </div>
                     <div class="col-12 col-md-6 col-sm-6">
                       <label>No. Pol</label>
@@ -90,7 +90,7 @@
                   <div class="row">
                     <div class="col-12 col-md-4 col-sm-4">
                       <label>Tare</label>
-                      <input type="text" class="form-control" id="Tare" name="Tare"> 
+                      <input type="text" class="form-control" id="Tare" name="Tare">
                     </div>
                     <div class="col-12 col-md-4 col-sm-4">
                       <label>Payload</label>
@@ -104,7 +104,7 @@
                   <div class="row">
                     <div class="col-12 col-md-6 col-sm-6">
                       <label>MNF</label>
-                      <input type="text" class="form-control" id="MNF" name="MNF"> 
+                      <input type="text" class="form-control" id="MNF" name="MNF">
                     </div>
                     <div class="col-12 col-md-6 col-sm-6">
                       <label>Grade</label>
@@ -112,10 +112,10 @@
                     </div>
                   </div>
                   <label>Reefer Machine</label>
-                  <input type="text" class="form-control" id="ReeferMachine" name="ReeferMachine"> 
+                  <input type="text" class="form-control" id="ReeferMachine" name="ReeferMachine">
                   <label>Remarks</label>
-                  <input type="text" class="form-control" id="Remarks" name="Remarks"> 
-                </div>                    
+                  <input type="text" class="form-control" id="Remarks" name="Remarks">
+                </div>
               </div>
             </div>
           </div>
