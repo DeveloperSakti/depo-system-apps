@@ -70,6 +70,11 @@ Route::group(['middleware' => ['auth'] ], function () {
         Route::get('/cancellation', function () {
             return view('app.pages.cancellation.form');
         })->name('operation.cancelation.add');
+        Route::group(['prefix' => 'cashier'], function (){
+            Route::get('/export', function () {
+                return view('app.pages.operation.cashier.export');
+            })->name('operation.cashier.export');
+        });
     });
     
     Route::group(['prefix' => 'reports'], function() {
