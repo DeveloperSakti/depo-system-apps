@@ -14,11 +14,11 @@
 Auth::routes();
 
 Route::group(['middleware' => ['auth'] ], function () {
-    
+
     Route::get('/', function () {
         return view('app.pages.dashboard.dashboard');
     });
-    
+
     Route::group(['prefix' => 'administration'], function() {
         Route::get('/user/user-permission', function () {
             return view('app.pages.administration.user.user_permission.list');
@@ -59,7 +59,7 @@ Route::group(['middleware' => ['auth'] ], function () {
             return view('app.pages.operation.dp-in.form');
         });
         Route::get('/data-in', function () {
-            return view('app.pages.operation.data-in.list');
+            return view('app.pages.operation.data-in.form');
         });
         Route::get('/input-do', function () {
             return view('app.pages.operation.input-do.list');
@@ -72,22 +72,22 @@ Route::group(['middleware' => ['auth'] ], function () {
         });
         Route::get('/chasier-import/form', function () {
             return view('app.pages.operation.chasier-import.form');
-	});          
+	});
         Route::get('/cancellation', function () {
             return view('app.pages.cancellation.form');
         })->name('operation.cancelation.add');
-          
+
         Route::group(['prefix' => 'cashier'], function (){
             Route::get('/export', function () {
                 return view('app.pages.operation.cashier.export');
             })->name('operation.cashier.export');
         });
     });
-    
+
     Route::group(['prefix' => 'reports'], function() {
         //
     });
-    
+
 
 });
 
